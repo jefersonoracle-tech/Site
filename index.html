@@ -541,6 +541,13 @@
     </a>
   </div>
 
+  <!-- VOLTAR AO TOPO -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m18 15-6-6-6 6"/>
+    </svg>
+  </button>
+
   <script>
     // Header scroll
     const header = document.getElementById('site-header');
@@ -600,6 +607,15 @@
     document.getElementById('prev-btn').addEventListener('click', () => goTo(current - 1));
     document.getElementById('next-btn').addEventListener('click', () => goTo(current + 1));
     dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+
+    // Voltar ao topo
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   </script>
 
 </body>
