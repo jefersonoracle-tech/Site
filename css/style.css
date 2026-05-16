@@ -697,40 +697,22 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
 
 /* Gradientes placeholder — substituir por background-image: url(...) */
 .service-card__image--box {
-  background-image:
-    linear-gradient(160deg, #3D2517 0%, #6B3520 40%, #9A4C30 100%);
+  background-image: url('../fotos/box-braids.jpg');
 }
 .service-card__image--knotless {
-  background-image:
-    linear-gradient(160deg, #2A1A14 0%, #4A2A1A 40%, #7A3A22 100%);
+  background-image: url('../fotos/knotless.jpg');
 }
 .service-card__image--nago {
-  background-image:
-    linear-gradient(160deg, #1A0F0A 0%, #3D2517 40%, #C59D5F 100%);
+  background-image: url('../fotos/Tranças-Nago.jpg');
 }
 .service-card__image--locs {
-  background-image:
-    linear-gradient(160deg, #0F0A06 0%, #2A1A14 40%, #5C3A2A 100%);
+  background-image: url('../fotos/locs.jpg');
 }
 .service-card__image--especial {
-  background-image:
-    linear-gradient(160deg, #3D2517 0%, #9A4C30 40%, #D4AE74 100%);
+  background-image: url('../fotos/penteados.jpg');
 }
 .service-card__image--manutencao {
-  background-image:
-    linear-gradient(160deg, #2A1A14 0%, #5C3A2A 40%, #C59D5F 100%);
-}
-
-/* Ícone decorativo no placeholder */
-.service-card__image::before {
-  content: '✦';
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: rgba(197, 157, 95, 0.25);
+  background-image:  url('../fotos/manutencao.jpg');
 }
 
 /* Overlay com nome */
