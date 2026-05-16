@@ -698,27 +698,21 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
 /* Gradientes placeholder — substituir por background-image: url(...) */
 .service-card__image--box {
   background-image: url('../fotos/box-braids.jpg');
-    linear-gradient(160deg, #3D2517 0%, #6B3520 40%, #9A4C30 100%);
 }
 .service-card__image--knotless {
   background-image: url('../fotos/knotless.jpg');
-    linear-gradient(160deg, #2A1A14 0%, #4A2A1A 40%, #7A3A22 100%);
 }
 .service-card__image--nago {
   background-image: url('../fotos/Tranças-Nago.jpg');
-    linear-gradient(160deg, #1A0F0A 0%, #3D2517 40%, #C59D5F 100%);
 }
 .service-card__image--locs {
   background-image: url('../fotoslocs.jpg');
-    linear-gradient(160deg, #0F0A06 0%, #2A1A14 40%, #5C3A2A 100%);
 }
 .service-card__image--especial {
   background-image: url('../penteados.jpg');
-    linear-gradient(160deg, #3D2517 0%, #9A4C30 40%, #D4AE74 100%);
 }
 .service-card__image--manutencao {
   background-image:  url('../manutencao.jpg');
-    linear-gradient(160deg, #2A1A14 0%, #5C3A2A 40%, #C59D5F 100%);
 }
 
 /* Ícone decorativo no placeholder */
